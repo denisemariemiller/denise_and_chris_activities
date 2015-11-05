@@ -1,28 +1,72 @@
+  <div class= "container">
+	<!-- <p class = text-center> will update with information soon! </p> -->
+<hr class= "style-seven">
 
-<div class= "container">
-	<div class= "row">
-          <div class="col-lg-12">
-               <!--  <h1 class="text-center"> we are getting married! 
-                </h1> -->
-               <!--  <h1 class= "text-center"><span class="glyphicon glyphicon-heart"><span class= "glyphicon glyphicon-heart"></h1> -->
-                  <hr class= "style-seven">
-              </div>
-           </div>
-     <div class= "row">
-           <div class= "col-md-3 text-center">
-           	<span class= "glyphicon glyphicon-heart"></span>
-           </div>
-
-		  <div class= "col-md-6 text-center">
-				<%= image_tag "cats_copy1.jpg", alt: "cats", id: "cats", class: "cats-cats img-responsive" %>
-				</div>
-			<div class= "col-md-3 text-center">
-					<span class= "glyphicon glyphicon-heart"></span>
-			</div>
-	</div>
-		 <hr class= "style-seven">
-	</div>
-		<br>
 	
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="width: 700px; margin: 0 auto">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+     <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+   <!--    <li data-target="#carousel-example-generic" data-slide-to="4"></li> -->
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <%= link_to image_tag "cats_copy1.jpg", class: "slide" %>
+      <div class="carousel-caption">
+        <h1>  </h1>
+      </div>
+    </div>
+       <div class="item">
+    	<%= link_to image_tag "IMG_5620b.jpg", class: "slide" %>
+      <div class="carousel-caption">
+        <h3>  </h3>
+      </div>
+    </div>
+
+    <div class="item">
+    	<%= link_to image_tag "eatdrinkb.jpg", class: "slide" %>
+      <div class="carousel-caption">
+        
+      </div>
+    </div>
+     <div class="item">
+    	<%= link_to image_tag "water1b.jpg", class: "slide" %>
+      <div class="carousel-caption">
+        
+      </div>
+    </div>
+<!--     <div class="item">
+    	<%= link_to image_tag "captain.jpg", class: "slide" %>
+      <div class="carousel-caption">
+        ...
+      </div> -->
+   <!--  </div> -->
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+
+</div>	
+<br>
+<hr class= "style-seven">
+
+<script>
+$(function(){
+$('.carousel').carousel()
+});
+</script>
+
 
 		

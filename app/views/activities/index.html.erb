@@ -1,0 +1,38 @@
+<div class= "container">
+<p id="notice"><%= notice %></p>
+
+  <div class="row">
+            <div class="col-lg-12">
+                <h1 class="text-center"> activity suggestions for those traveling from out-of-state!
+                </h1>
+                 <hr class= "style-seven">
+              <p class= "story text-center"> Here are just a few suggestions. Please reach out if you have questions or check out <%= link_to "Pure Michigan", "http://www.michigan.org/", :target => "_blank" %><!-- <a target="_blank" href="http://www.michigan.org/" --></a>. </p> 
+              <p class= "story text-center">  Golf courses are like starbucks in Michigan; they are everywhere.  </p>
+
+<div class= "row">
+
+    <% @activities.each do |activity| %>
+      <div class= "col-md-4">
+        <div class= "panel panel-default">
+          <div class= "panel-body">
+        <h2 class= "text-center"><%= activity.title %></h2>
+        <p class= "story">  <%= activity.city %>, <%= activity.state %></p> 
+        <p><!-- Desciption:  --> <%= activity.description %></p>
+         <p class= "story"><%= link_to "learn more", activity.website, :target => "_blank" %></p>
+
+        <div class= "btn-group-sm">
+    <!--     <%= link_to 'Show', activity %> -->
+        <div class="btn btn-info"><%= link_to 'Edit', edit_activity_path(activity) %></div>
+        <div class= "btn btn-info
+        "><%= link_to 'Delete', activity, method: :delete, data: { confirm: 'Are you sure?' } %></div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <% end %>
+</div>
+
+<br>
+
+<%= link_to 'New Activity', new_activity_path %>
+</div>

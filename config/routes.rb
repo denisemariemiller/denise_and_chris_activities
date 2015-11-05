@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :activities
   get 'travel/stay' => 'travel#stay'
 
   get 'travel/addison_oaks' => 'travel#addison_oaks'
@@ -19,6 +20,8 @@ Rails.application.routes.draw do
 
 
   get 'welcome/talk_to_us' => 'welcome#talk_to_us'
+ 
+  get 'activities/index' => 'activities#index'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

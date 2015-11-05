@@ -14,7 +14,8 @@
 <br>
 
 
-  <div id= "dc"> denise & chris </div>
+  <div class= "dc"> denise & chris</div>
+
 <!--    <hr class= "style-seven"> -->
   <div id ="weddate"> July 30, 2016 </div>
 <nav class="navbar navbar-inverse" role="navigation">
@@ -33,7 +34,9 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
+         <li><%= link_to "home", root_path %></li>
         <li class="active"><%= link_to "our story", welcome_us_path %><span class="sr-only">(current)</span></li>
+       
          <li><%= link_to "events", welcome_fun_path %></li>
         <li><%= link_to "registry", welcome_registry_path %></li>
         <li><%= link_to "photos", welcome_photos_path %></li> 
@@ -48,7 +51,7 @@
             </li>
             <li><%= link_to "where to stay", travel_stay_path %>
             </li>
-            <li><%= link_to "what's in the area", travel_arround_path %>
+            <li><%= link_to "what's in the area", activities_path %>
             </li>
            
           </ul>
@@ -60,6 +63,7 @@
   </div><!-- /.container-fluid -->
 </nav>
 <br>
+
 
 
 
