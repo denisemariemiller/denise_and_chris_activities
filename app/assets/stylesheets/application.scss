@@ -222,35 +222,23 @@ hr.style-seven:before { /* Not really supposed to work, but does */
 
 // photos
 .photos {
-	width: 200px;
-}
-
-.photos_row_1 {
-	height: 200px;
-	margin-top: 25px;
-
-}
-
-.photos_row {
-	height: 200px;	
-	margin-top: 25px;
-	margin-left: 45px;
-}
-.photos_row_2 {	
-	height: 210px;
-	margin-top: 14px;
-
-}
-
-.photos-tall {
-	width: 200px;
+	max-width: 230px;
+	height: auto;
+	display: flex;
+	border: white solid 5px;
 	position: center;
-	border: solid, 4px;
+}
+
+
+.photos_1 {
+	max-width: 270px;
+	height: auto;
+	display: flex;
+	border: white solid 5px;
+	position: center;
 
 }
 
-.modal-dialog {width:600px;}
-.thumbnail {margin-bottom:6px;}	
 
 
 // addison
