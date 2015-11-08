@@ -145,14 +145,17 @@ hr.style-seven:before { /* Not really supposed to work, but does */
 
 
 // our story pictures: 
-.parade{
+#parade{
 	width: 700px;
+
+	border: white solid 5px;
+	
 }
 
 
-.motorcycle {
+#motorcycle {
 	width: 700px;
-
+	border: white solid 5px;
 }
 
 
@@ -160,9 +163,6 @@ hr.style-seven:before { /* Not really supposed to work, but does */
 	padding-left: 25px;
 	padding-right: 40px;
 }
-
-
-
 
 
 // events
