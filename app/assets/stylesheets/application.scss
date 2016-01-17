@@ -19,17 +19,13 @@
 
 // application 
 
-
-
 .dc {
 	text-align: center;	
 	color: black;
-	font-size: 50px;
+	font-size: 50px;	
 	font-family: 'IM Fell DW Pica', serif;
 	text-shadow: 4px 4px 4px #F2F2F2;
 	font-weight: 600;
-
-
 }
 
 .navbar .navbar-nav {
@@ -44,7 +40,7 @@
 
 #weddate{
 	text-align: center;	
-	color: #black;
+	color: black;
 	font-size: 25px;
 	font-family: 'IM Fell DW Pica', serif;
 	text-shadow: 4px 4px 4px #F2F2F2;
@@ -58,18 +54,8 @@ h3, h4, p, h3.text-center {
 
 }
 
-// html,
-// body {
-
-//   background-image: image-url('leaves.jpg');
-//   background-size: 100%;
-// }
-
-
-
 html,
 body {
-
   background-image: image-url('bouquet.jpg');
   background-size: 100%;
 }
@@ -119,11 +105,16 @@ hr.style-seven:before { /* Not really supposed to work, but does */
 }
 
 
-.container{
-	background-color: rgba(255, 255, 255, 0.7);
-	padding-left: 30px;
-	padding-right: 30px;
+.container {
+	width: 900px;
+	margin: 0 auto;
+	background-color: rgba(255, 255, 255, 0.8);
+	padding-left: 50px;
+	padding-right: 50px;
 	padding-top: 30px;
+	// margin-top: 30px;
+	// // margin-right: 60px;
+	// margin-left: 80px;
 }
 
 .story , .cat {
@@ -147,34 +138,27 @@ hr.style-seven:before { /* Not really supposed to work, but does */
 // our story pictures: 
 #parade{
 	width: 700px;
-
-	border: white solid 5px;
-	
+	border: white solid 5px;	
 }
-
 
 #motorcycle {
 	width: 700px;
 	border: white solid 5px;
 }
-
-
 .comment {
 	padding-left: 25px;
 	padding-right: 40px;
 }
 
-
 // events
 
 .addison {
 	width: 350px;
-	// border-radius: 50%;
+	border: white solid 5px;
 }
-
 .garden,  {
 	width: 350px;
-	// border-radius: 50%;
+border: white solid 5px;
 }
 
 .lakedate {
@@ -222,7 +206,7 @@ hr.style-seven:before { /* Not really supposed to work, but does */
 
 // photos
 .photos {
-	max-width: 230px;
+	max-width: 400px;
 	height: auto;
 	display: flex;
 	border: white solid 5px;
@@ -231,14 +215,13 @@ hr.style-seven:before { /* Not really supposed to work, but does */
 
 
 .photos_1 {
-	max-width: 270px;
+	max-width: 400px;
 	height: auto;
 	display: flex;
 	border: white solid 5px;
 	position: center;
 
 }
-
 
 
 // addison
@@ -257,11 +240,20 @@ hr.style-seven:before { /* Not really supposed to work, but does */
 }
 
 #map-canvas {
-  width: 600px;
+  width: 400px;
   height: 500px;
   border-radius: 10px 10px 10px 10px;
   -moz-border-radius: 10px 10px 10px 10px;
   -webkit-border-radius: 10px 10px 10px 10px;
   border: 8px solid #000000;
   margin-bottom: 40px;
+}
+
+// stay page 
+.hampton_pic {
+	max-width: 400px;
+}
+
+.hampton_pic {
+	max-width: 400px;
 }

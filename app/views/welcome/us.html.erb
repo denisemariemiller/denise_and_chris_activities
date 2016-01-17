@@ -1,42 +1,49 @@
 <html>
 
-
 <div class="container">
-<!-- Page Heading -->
   <div class="row">
     <div class="col-lg-12">
-    <h1 class="text-center"><%= image_tag "hearts.png", alt: "heart", id: "heart" %>  Our Story
-    <%= image_tag "hearts.png", alt: "heart", id: "heart" %></h1>
+    <h1 class="text-center"><%= image_tag "hearts.png", alt: "heart", id: "heart" %>  Our Story <%= image_tag "hearts.png", alt: "heart", id: "heart" %></h1>
     </div>
   </div>
 
-    <hr class= "style-seven">
-    <br>
-        <!-- /.row -->
-        <!-- how we met-->
-  <div class="row">
-    <div class="col-md-6">
+ <hr class= "style-seven">
+ 
+  <div class= "row">
+    <div class="col-lg-12">
+    <div class= "stories"> 
+        <p class= "story">&nbsp;&nbsp;&nbsp;    Denise and Chris went to Middle School and High School together in Southeastern Michigan.  During those six years they swapped elementary buddies, had a handful of classes together, and participated in the same school activities.  However, they never truly got to know each other beyond the familiar face and the occassional high-school-party-run-in.</p>
+        <p class= "story">     Luckily, that didn't matter.  Here's a glimpse of what they remember of those years...</p>
+        <p class= "comment"><em>    (Chris has requested that we note, and mostly for HIS own future reference, that he remembers details better than Denise.  Denise is wondering why if his memory is so good that we have to document it for HIS reference.  )</em></p>
+    </div>
+  </div>
+</div>
+
+<div class= "row">
+ <div class="col-md-6">
   <br>
     <%= image_tag 'FotorCreated.jpg', alt: '7th', id: "jr", class: "seventh img-responsive"  %>
   <br>
     <%= image_tag 'senioryear1.jpg', id: "jr", class: "seventh img-responsive" %>
     </div>
-    <div class="col-md-5">
+ 
+    <div class="col-md-6">
       <div class= "stories"> 
+    
       <!--   <h3><strong>the early years:</strong></h3> -->
-          <p class= "story">&nbsp;&nbsp;&nbsp;    Denise and Chris went to Middle School and High School together in Southeastern Michigan.  During those six years they swapped elementary buddies, had a handful of classes together, and participated in the same school activities.  However, they never truly got to know each other beyond the familiar face and the occassional high-school-party-run-in.</p>
-          <p class= "story">     Luckily, that didn't matter.  Here's a glimpse of what they remember of those years...</p>
-          <p class= "comment"><em>    (Chris has requested that we note, and mostly for HIS own future reference, that he remembers details better than Denise.  Denise is wondering why if his memory is so good that we have to document it for HIS reference.  )</em></p>
+     <!--      <p class= "story">&nbsp;&nbsp;&nbsp;    Denise and Chris went to Middle School and High School together in Southeastern Michigan.  During those six years they swapped elementary buddies, had a handful of classes together, and participated in the same school activities.  However, they never truly got to know each other beyond the familiar face and the occassional high-school-party-run-in.</p>
+          <p class= "story">     Luckily, that didn't matter.  Here's a glimpse of what they remember of those years...</p> -->
+        <!--   <p class= "comment"><em>    (Chris has requested that we note, and mostly for HIS own future reference, that he remembers details better than Denise.  Denise is wondering why if his memory is so good that we have to document it for HIS reference.  )</em></p> -->
           <p class= "story">
           Chris recalls meeting in Mrs. Walsh's 7th grade math class.  The students were assigned seats according to their birthday and Denise sat directly in front of him.  </p>
-          <p class ="comment" ><em>(Chris would like to make it clear that Denise is OLDER.  Denise would like to share  that it is only by 4 days, however, she is prepared to hear about it for the rest of their lives.) </em></p>
-          <p class= "story"> Chris remembers that everyday Denise would turn around and ask him for a piece of gum.  Denise remembers that he always had gum and was happy to give it -   so of course, she would ask! </p>
+          <p class ="comment" ><em>(Chris would like to make it clear that Denise is OLDER.  Denise would like to share  that it is only by 4 days<!-- , however, she is prepared to hear about it for the rest of their lives -->.) </em></p>
+          <p class= "story"> Chris remembers that everyday Denise would turn around and ask him for a piece of gum.  Denise remembers Chris always shared! </p>
           <p class ="comment" ><em>(Chris later admits that his strategy of supply was not by accident; he didn't like to disappoint.  Denise appreciated this quality then and does so now.)</em><p>
-          <p class= "story">Denise and Chris had band class together but were on opposite sides of the room; Chris banged on things in the back of the room, but since Denise played the flute, she was in the front. </p>
+          <p class= "story">Denise and Chris had band class together; Chris banged on things in the back of the room, but since Denise played the flute, she was in the front. </p>
           <p class= "comment"><em>(Denise remembers being jealous that there was more euchre-playing in the percussion section than instrument-playing. Chris has no comment on his memory of this accusation.)</em> </p>
-    			<p class = "story">Chris remembers that Denise was a cheerleader.  Denise corrects Chris- he was close, but it was actually the poms/dance team. </p>
+          <p class = "story">Chris remembers that Denise was a cheerleader.  Denise corrects Chris- he was close, but it was actually the poms/dance team. </p>
           <p class= "comment"><em> (Chris says, in all fairness, he just remembers that she wore a cheerleading outfit.  Denise is surprised he remembers since the outfit was blue and yellow NOT green and white.)</em></p>
-    	</div>
+      </div>
     </div>
   </div>
         <!-- /.row -->
@@ -51,7 +58,9 @@
         </div>
     <div class="col-md-6">
       <%= image_tag 'parade.jpg', alt: 'parade', id: "parade", class: "parade img-responsive"  %>
-    </div>
+      <br>
+      <%= image_tag 'dancy.jpg', alt: 'dance', id: "parade", class: "parade img-responsive" %>
+     </div>
   </div>
         <!-- /.row -->
         <hr>
@@ -59,6 +68,8 @@
   <div class="row">
     <div class="col-md-6">
       <%= image_tag 'motorcyclechris.jpg', alt: 'motorcycle', id: "motorcycle", class: "cycle img-responsive"  %>
+      <br>
+       <%= image_tag 'chrisdad.jpg', alt: 'chris2', id: "motorcycle", class: "cycle img-responsive"  %>
     </div>
     <div class="col-md-6">
         <p class= "events text-center"> Chris </p>
@@ -73,12 +84,12 @@
     <div class="col-md-6">
         <p class= "events text-center">Reconnecting</p>
             <!--     <h4>(the Gypsy and Captain America collide...)</h4> -->
-        <p class = "story">  Denise joined facebook after performing in United Arab Emirates as a way to keep in contact with some of the cast members that were staying an extra week.  Shortly after, Chris reached out and they began annually sending check-in messages and birthday-wishes to each other   </p>
+        <p class = "story">  Denise joined facebook after a gig overseas as a way to keep in contact with some of the cast members.  Shortly after, Chris reached out and they began annually sending check-in messages and birthday-wishes to each other   </p>
         <p class= "story"> In November 2014, Denise's friend, Kaitlin, shared that she was going to be relocating from Brooklyn to Atlanta.  Denise offered to reach out to a couple of people she knew that lived there and sent Chris a message. Very quickly, text messaging evolved into phone calls and then into plans for future visits.</p>
         <p class= "story"> The following month, they both went to visit their families in Michigan for Christmas and had their first date in Milford, Michigan. Eight months later, after alternating monthly visits, Denise packed up, said goodbye to NYC, and moved to Georgia. </p>
       </div>
     <div class="col-md-6">
-			<%= image_tag 'collage.jpg', alt: 'collage', id: "collage", class: "parade img-responsive"  %>
+      <%= image_tag 'collage.jpg', alt: 'collage', id: "collage", class: "parade img-responsive"  %>
     </div>
   </div>
         <!-- /.row -->
@@ -89,8 +100,13 @@
     </div>
     <div class="col-md-6">
         <p class= "events text-center"> The Kittens </p>
+           <p class= "story text-center">
+            These furry balls of love were rescue kittens that Chris brought home the night he proposed. 
+          </p>
         <h4><strong>Star</strong></h4>
+
         <p class= "story">
+
         <ul>
           <li class="cat">Fav Foods: Cucumbers, carrots, bell peppers, & bamboo leaves</li>
           <li class="cat">Loves: Heights, belly rubs, and shoelaces</li>
@@ -99,7 +115,7 @@
           <li class="cat">Most Eccentric Trait: Enjoys watching us cook, but must simultaneously be held </li> 
         </ul>
         </p> 
-                 <br>
+                 
         <h4><strong>Triumph</strong></h4>
         <p class= "story"> 
         <ul>
